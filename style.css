@@ -1,0 +1,50 @@
+body{
+    padding: 50px 100px;
+}
+h1{
+    text-align: center;
+}
+#container{
+    text-align: center;
+}
+.inp{
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 30px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    color:crimson;
+}
+label{
+    font-size: 22px;
+    color: rgb(23, 212, 105);
+}
+
+button {
+    color: green;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  button::before {
+    margin-left: auto;
+  }
+  
+  button::after, button::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  button:hover::after, button:hover::before {
+    width: 100%;
+  }
